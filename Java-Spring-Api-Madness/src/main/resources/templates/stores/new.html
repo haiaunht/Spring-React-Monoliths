@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--<html xmlns:th="https://www.thymeleaf.org">-->
+<head>
+  <title>Stores</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<h1>Add a New Store</h1>
+
+<form action="#" th:action="@{/stores}" th:object="${store}" method="POST">
+
+  <div>
+    <label th:for="name">Name</label>
+    <input type="text" th:field="*{name}" />
+    <p class="error" th:errors="*{name}"></p>
+  </div>
+
+  <div>
+    <label th:for="type">Type</label>
+    <input type="text" th:field="*{type}" />
+    <p class="error" th:errors="*{type}"></p>
+  </div>
+
+  <div>
+    <label th:for="averageCost">Average Cost</label>
+    <input type="number" th:field="*{averageCost}" />
+    <p class="error" th:errors="*{averageCost}"></p>
+  </div>
+
+  <div>
+    <label th:for="operatingStatus">Operating Status</label>
+    <input type="radio" th:field="*{operatingStatus}" value="1" />
+    <label th:for="operatingStatus">Open?</label>
+    <input type="radio" th:field="*{operatingStatus}" value="0" />
+    <label th:for="operatingStatus">Closed?</label>
+    <p class="error" th:errors="*{operatingStatus}">Closed?</p>
+  </div>
+
+  <div>
+    <input type="submit" value="Add Store" />
+  </div>
+  <h3><a class="link" href="/stores">Back to list of stores</a></h3>
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/dtos/StoreDto.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/seeders/StoreSeeder.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/models/Store.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/mappers/StoreMapper.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/controllers/StoreRestApiController.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/repositories/StoreRepository.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/MallMadness.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/controllers/StoreController.java
+/Users/haiau/OneDrive/challenges/java-spring-api-madness/src/main/java/com/launchacademy/mallmadness/services/StoreService.java

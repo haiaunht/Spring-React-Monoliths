@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <title>Stores</title>
+</head>
+<body>
+<h1>Stores</h1>
+<ol>
+<div th:each="store : ${stores}">
+  <div th:object="${store}">
+    <li><h3 th:text="*{name}">Store name</h3></li>
+    <p><strong>Type: </strong><span th:text="*{type}"></span></p>
+    <p><strong>Average Cost: </strong><span th:text="*{averageCost}"></span></p>
+    <p><strong>Open: </strong><span th:text="*{operatingStatus}"></span></p>
+  </div>
+</div>
+</ol>
+<h3><a class="link" href="/stores/new">Add a new store</a></h3>
+</body>
+</html>
