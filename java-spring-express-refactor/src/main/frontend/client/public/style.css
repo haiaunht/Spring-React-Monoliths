@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+}
+
+.images {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.adoption_app {
+  position: absolute;
+  max-width: 40%;
+  /*margin: 120px auto 30px;*/
+  display: block;
+  margin: 50px auto 0 30%;
+  /*margin: 100px auto 0 580px;*/
+  border-radius: 50px;
+  padding: 25px;
+}
+
+.error {
+  color: rgb(219, 47, 47);
+}
+
+.success-tile {
+  max-width: 50%;
+  margin: auto;
+}
+
+.cell {
+  max-width: 40%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a0a0a;
+  color: #2f99e8;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.card {
+  background-color: #e0e2e9;
+  padding: 1.5rem;
+  margin-top: 30px;
+  height: 40%;
+}
+
+form {
+  background-color: #e0e2e9;
+}
+
+.animal-show {
+  max-width: 40%;
+  margin: 120px auto 1% auto;
+  background-color: #abcdef;
+  border-radius: 2%;
+  padding: 1.25rem 2rem;
+}
+
+.animal-show img {
+  display: block;
+  margin: auto;
+}
+
+.home {
+  padding-bottom: 3rem;
+}
+
+.navbar {
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+  z-index: 1;
+}
+
+.navbar ul {
+  position: relative;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  display: inline-block;
+  color: #555;
+  font-weight: 800;
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  position: absolute;
+  /*z-index: 1;*/
+}
+
+.callout {
+  position: fixed;
+  top: 500px;
+  right: 350px;
+  max-width: 50%;
+}
+
+.right {
+  margin-right: 70px;
+}
+
+.button .round {
+  display: block;
+  margin: auto;
+}
+
+.container {
+  background-color: #fff;
+  padding: 100px;
+  min-height: calc(100vh - 300px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.max-width-800 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* pet styles*/
+.pet {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.pet .pet-box {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 15px 30px rgba(0, 20, 0, 0.05);
+}
+
+.pet .pet-box .pet-img {
+  margin-top: 25px;
+}
+.pet .pet-box .pet-img img {
+  max-width: 200px;
+  margin-bottom: 15px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.pet-box .pending-box {
+  display: block;
+  margin-left: 188px;
+}
+
+.pet .pet-box .pet-details h2 a {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+#surrender-form {
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 88px);
+  /*background-color: #abcdef;*/
+}
+
+.surrender-form-container {
+  position: relative;
+  min-width: 1100px;
+  min-height: 550px;
+  display: flex;
+  z-index: 0;
+  margin-left: 100px;
+}
+
+#surrender-form-box .input-box input[type="submit"]:hover {
+  background-color: #fff;
+  transform: rotateY(360deg);
+  color: #e0e2e9;
+}
+
+#surrender-form-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  width: 80%;
+  margin-left: 200px;
+}
+
+#surrender-form-box label {
+  margin-left: 15px;
+  margin-top: 20px;
+  display: block;
+}
+
+form {
+  width: 70%;
+  background-color: #abcdef;
+  border-radius: 100px;
+  border: outset black;
+}
+
+/*admin*/
+
+form .admin-form {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  width: 80%;
+}
+
+.admin-form label {
+  margin: 15px auto 15px 20px;
+}
+
+#surrender-btn {
+  font-size: 20px;
+  color: #fff;
+  background-color: #e91e63;
+  display: block;
+  margin: 15px 0 15px 280px;
+
+  padding: 4px 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+.pending-box .approve {
+  margin-bottom: 10px;
+  border-style: outset;
+  background-color: chartreuse;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.success {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.deny-form {
+  width: 1%;
+  height: 0.1%;
+  background-color: #ffffff;
+  border: none;
+}
+
+.deny  {
+  margin: 10px auto 10px 118px;
+  border-style: outset;
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
